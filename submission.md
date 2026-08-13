@@ -31,7 +31,7 @@ Paste the URL of the commit in your history that you think best demonstrates cle
 
 Link to a commit, PR, or issue where something went wrong — a bad commit message you had to fix, a branch you had to delete and recreate, a PR that needed rework, or a deployment that broke. 
 
-- **Link to the evidence:** ![Deployment failure screenshot](project_images/deployment_failure.png)
+- **Link to the evidence:** ![Deployment failure screenshot](evidence/deployment_failure.png)
 - **What happened and how did you recover?** This was an issue I faced when trying to deploy the website to GitHub Pages. I had included the wrong folder i.e /docs instead of /root, which caused the deployment to fail. I also used the wrong deployment linke i.e. https://hmunene.github.io/inventory-management-147915 instead of https://is-project-2026.github.io/inventory-management-147915/
 
 ### C. A Pull Request You're Proud Of
@@ -40,7 +40,7 @@ Paste the URL of the PR that best shows your self-review process — one where t
 
 - **PR URL:** [https://github.com/IS-PROJECT-2026/inventory-management-147915/commit/c88e56423e4246a5f1045d0499b7eb6973596436]
 - **What did you check before merging?** I ensured it contained the **Closes** keyword to automatically close the linked issue
-- **Link to the evidence:** ![Best PR](project_images/best_pr.png)
+- **Link to the evidence:** ![Best PR](evidence/best_pr.png)
 
 
 ### D. One Thing You Would Do Differently
@@ -61,28 +61,28 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 ### A. Milestones and Issues
 *Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
-![Active milestone](project_images/active_milestone.png)
+![Active milestone](evidence/active_milestone.png)
 
 * **Caption:** [This is the Responsiveness and interactivity milestone with 3 issues closes and one pending issue remaining to be closed]
 
 ### B. Project Board
 *Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-![Active milestone](project_images/kanban.png)
+![Active milestone](evidence/kanban.png)
 
 * **Caption:** [This is the Kanban board showing the issues in different stages of completion namely: backlog, to do, in progress and done]
 
 ### C. Branching Architecture
 *Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
 
-![Branch List](project_images/branch_structure.png)
+![Branch List](evidence/branch_structure.png)
 
 * **Caption:** This is the branch list showing all the branches in my repository
 
 ### D. Pull Requests & Traceability
 *Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
 
-![Merged PR](project_images/best_pr.png)
+![Merged PR](evidence/best_pr.png)
 
 * **Caption:** This is a closed pull request that was linked to issue number 3 which was to create an inventory data table
 
@@ -103,21 +103,21 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 #### Step 1: Generating the Clash
 *Screenshot showing the merge attempt and the conflict warning.*
 
-![Merge Conflict](project_images/merge_conflict.png)
+![Merge Conflict](evidence/merge_conflict.png)
 
 * **Caption:** This is the merge conflict warning I received when trying to merge the branches
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
 *Screenshot showing the raw, unresolved conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in your editor.*
 
-![Same Line Edit Merge Conflict](project_images/same_line_edit.png)
+![Same Line Edit Merge Conflict](evidence/conflict_evidence_1.png)
 
 * **Caption:** [Explain what caused the dispute and your reasoning for the final version]
 
 #### Step 3: Resolution & Clean Merge
 *Screenshot of your clean Git history or completed PR showing the conflict was resolved and merged.*
 
-![Merge Resolved](project_images/merge_resolved.png)
+![Merge Resolved](evidence/merge_resolved.png)
 
 * **Caption:** This is the PR showing the merge conflict was resolved
 
@@ -129,7 +129,7 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 **Why does this cause trigger a conflict?** This conflict occurs when two different branches have the same file but with different content
 
-![Appended List Merge Conflict](project_images/modify.png)
+![Appended List Merge Conflict](evidence/conflict_evidence_2.png)
 
 * **Caption:** This is a merge conflict caused by modifying an existing file
 ---
@@ -141,7 +141,7 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 **Why does this cause trigger a conflict?** This conflict occurs when two different branches have the same file but with different names
 
 
-![Appended List Merge Conflict](project_images/appended.png)
+![Appended List Merge Conflict](evidence/conflict_evidence_3.png)
 
 * **Caption:** This is a merge conflict caused by appending content to the end of the file
 
