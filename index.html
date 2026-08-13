@@ -9,9 +9,52 @@
 </head>
 
 <body>
-  <header>
-    <h1>Welcome to your Inventory Management App</h1>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-title">
+        <h1>Inventory Management</h1>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#dashboard" class="nav-link active">Dashboard</a></li>
+          <li><a href="#inventory" class="nav-link">Inventory</a></li>
+          <li><a href="#add-item" class="nav-link">Add Item</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <main class="dashboard-content">
+    <section class="summary-bar" aria-label="Inventory Summary Statistics">
+      <div class="summary-card">
+        <div class="summary-info">
+          <span class="summary-label">Total Items</span>
+          <h2 class="summary-count">150</h2>
+        </div>
+      </div>
+
+      <div class="summary-card alert-warning">
+        <div class="summary-info">
+          <span class="summary-label">Low Stock Alert</span>
+          <h2 class="summary-count">5</h2>
+        </div>
+      </div>
+
+      <div class="summary-card alert-danger">
+        <div class="summary-info">
+          <span class="summary-label">Out of Stock</span>
+          <h2 class="summary-count">2</h2>
+        </div>
+      </div>
+
+      <div class="summary-card">
+        <div class="summary-info">
+          <span class="summary-label">Total Categories</span>
+          <h2 class="summary-count">8</h2>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
